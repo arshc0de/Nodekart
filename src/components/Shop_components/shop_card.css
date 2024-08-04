@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.product_card{
+    min-width: 10%;
+    max-width: 15%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    /* border: 1px solid grey; */
+}
+.product_card:hover{
+    box-shadow: 1px 1px 20px gray;
+    transition: all 0.25s ease-in;
+}
+.Wishlist_svg_icon{
+    width: 20px;
+    padding: 6px;
+    margin: 4px;
+    cursor: pointer;
+    transition: all 0.25s ease-in;
+}
+.Wishlist_svg_icon:hover{
+    background-color: rgb(245, 187, 187);
+    border-radius: 50%;
+    transition: all 0.25s ease-in;
+}
+.Wishlist_svg_icon.clicked {
+    /* You can add specific styles for the clicked state if needed */
+    transform: scale(1.1); /* Example: slightly enlarge the icon */
+}
+.product_id{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Add_svg_icon{
+    width: 20px;
+    padding: 10px;
+}
+.Add_svg_icon:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.25s ease-in;
+}
+.product_image{
+    object-fit: cover;
+    min-width: 50%;
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+.user_add_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_product_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_controle_stock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2px;
+}
+.user_cart_controle{
+    text-align: center;
+}
+.top_shop_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop_card_Buy_Now{
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgb(57, 57, 57);
+    color: white;
+}
+.shop_card_Buy_Now:hover{
+    background-color: black;
+}

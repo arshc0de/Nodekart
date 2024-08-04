@@ -1,0 +1,57 @@
+#main_news {
+    border: 1px solid white;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 50%,
+      rgb(240, 240, 240) 50%, /* Adjust the percentage as needed */
+      rgb(240, 240, 240) 100%
+    );
+  }
+  
+#newsletter {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 100px;
+  border-radius: 20px;
+}
+#newsletter_head {
+  width: 50%;
+  padding: 20px;
+  text-align: right;
+  font-size: 60px;
+  font-family: "Bebas Neue";
+}
+#newsletter_user_handel {
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+}
+#user_email {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 50%;
+}
+#user_btn_news {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  margin: 10px;
+  width: 50%;
+  border: none;
+}
+#user_btn_news:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}

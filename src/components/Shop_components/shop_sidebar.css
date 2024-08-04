@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#sidebar_shop{
+    top: 40px;
+    margin: 20px;
+    padding: 10px;
+    position: sticky;
+    color: #605b75;
+    border-right: 2px solid #605b75;
+    height: 100vh;
+}
+.head_sidebar{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 20px;
+}
+.subHead_sidebar{
+    margin-left: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+.underHead_sidebar{
+    margin-left: 50px;
+    color: grey;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px;
+}
+.user_nav_icons{
+    height: 20px;
+    margin: 10px;
+}
+.container_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

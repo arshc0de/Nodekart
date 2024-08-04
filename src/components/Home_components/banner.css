@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+   /* border: 2px solid blue;*/
+   background-color: #F2F0F1;
+   padding: 10px;
+}
+#banner_main{
+   /* border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#info_side{
+   /* border: 2px solid yellow;*/
+    width: 60%;
+    margin-left: 100px;
+    height: fit-content;
+}
+#gallery_side{
+  /*  border: 2px solid green;*/
+    width: 40%;
+    height: fit-content;
+}
+#info_side>#banner_head{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 80px;
+    font-family: "Bebas Neue", sans-serif;
+}
+#info_side>#banner_body{
+    color: gray;
+    margin: 10px;
+}
+#info_side>#btn_shop_now{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 16px;
+}
+#info_side>#numCo_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#brand{
+    width: 100%;
+}

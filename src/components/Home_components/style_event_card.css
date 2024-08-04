@@ -1,0 +1,4 @@
+.card_container_bg:hover{
+    background-size: 110%;
+    transition: all 0.25s ease-in;
+}

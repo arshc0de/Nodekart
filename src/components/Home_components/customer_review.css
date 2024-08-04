@@ -1,0 +1,27 @@
+#controle_review{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left_icon_controle{
+    height: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+#left_icon_controle:hover{
+    fill: white;
+    background-color: black;
+}
+#right_icon_controle{
+    height: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+#right_icon_controle:hover{
+    fill: white;
+    background-color: black;
+}

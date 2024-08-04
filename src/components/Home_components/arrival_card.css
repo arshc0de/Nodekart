@@ -1,0 +1,15 @@
+.card_product {
+  margin: 6px;
+  padding: 10px;
+}
+
+.card_product:hover {
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px gray;
+  transition: all 0.25s ease-in;
+}
+.Container_image_arrival{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
